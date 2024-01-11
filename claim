@@ -1,14 +1,6 @@
 local RemoteFunction = game:GetService("ReplicatedStorage"):WaitForChild("UGC"):WaitForChild("Drops")
 
-local secondArgsList = {"Hl3hAX73LB0CiOT",
-"kDJ744HoX6xxhKt",
-"Fnogypio1h33WD9",
-"MrjiruuCRwdoNIh",
-"70HmCesfiu3LyXE",
-"xGfRz70cSYcNqtK",
-"uiRk1pdgCCGepJO",
-"iuYqUG2jjxzkb8f",
-"VoOYZ64F9ccNYcf",
+local secondArgsList = {"VoOYZ64F9ccNYcf",
 "CtptqsoKnj96Epr",
 "CtCySFrYbVWpymh",
 "oxSoKVbx3FYXH5e",
@@ -237,7 +229,15 @@ local secondArgsList = {"Hl3hAX73LB0CiOT",
 "Ndmvy74rzNFAhqp",
 "9xiJEd1kOPh1rX5",
 "wQFRxYRiVoyzYKp",
-"MPyJtUwmUz5L08c"}
+"MPyJtUwmUz5L08c",
+"7OaAJuFUkIa8bQU",
+"5gvUnFQvT4S4oXx",
+"veLQFxMPTPnZhDB",
+"GwrbRcSrUY9r9oF",
+"AOXzNK762LJWTL7",
+"vFbAijBS8QFWeQY",
+"bnvtdSj3Nlda4of",
+"VICk2iCeYYXXhF3",}
 
 for _, code in ipairs(secondArgsList) do
     local result = RemoteFunction:InvokeServer("ClaimItem", code)
